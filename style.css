@@ -320,6 +320,17 @@ a:visited {
   -webkit-transition: var(--ease-in-out);
 }
 
+.left-nav>ul>li>a:hover,
+.left-nav>ul>li>a:active,
+.left-nav>ul>li>a:focus,
+.left-nav>ul>li>a[aria-expanded=true] {
+  background-color: var(--color-gray-dark);
+  color: var(--color-light);
+  border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+}
+
 .left-nav > ul > li.menu-item-has-children > a::after {
   content: "";
   display: inline-block;
@@ -768,10 +779,6 @@ a:visited {
     display: none;
   }
 
-  .left-nav>ul>li>a:hover,
-  .left-nav>ul>li>a:active,
-  .left-nav>ul>li>a:focus,
-  .left-nav>ul>li>a[aria-expanded=true],
   .right-nav>ul>li>a:hover,
   .right-nav>ul>li>a:active,
   .right-nav>ul>li>a:focus,

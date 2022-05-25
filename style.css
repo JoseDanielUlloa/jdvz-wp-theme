@@ -482,6 +482,11 @@ a:visited {
   padding: 20px 5%;
 }
 
+.default-page img {
+  max-width: 100%;
+  height: auto;
+}
+
 /***** Newsletter CTA *****/
 
 .text-field-newsletter-cta {

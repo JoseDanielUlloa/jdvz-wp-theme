@@ -90,9 +90,6 @@ a:visited {
 .blue-button:active, 
 .blue-button:focus {
   color: var(--color-light) !important;
-  animation: bounce 1s;
-  -moz-animation: bounce 1s;
-  -webkit-animation: bounce 1s;
 }
 
 /***** Resets *****/
